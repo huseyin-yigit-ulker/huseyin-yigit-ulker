@@ -269,7 +269,7 @@
       </g>
 
       <line x1="58" y1="205" x2="58" y2="241" stroke="#1E293B" stroke-width="1" />
-      <text x="68" y="218" class="mono" font-size="10.5" font-weight="600" fill="#94A3B8">PF FACTOR</text>
+      <text x="64" y="218" class="mono" font-size="10" font-weight="600" fill="#94A3B8">PROFIT FACTOR</text>
       <text x="68" y="238" class="mono" font-size="15.5" font-weight="800" fill="#34D399">2.41 ▲</text>
 
       <line x1="154" y1="205" x2="154" y2="241" stroke="#1E293B" stroke-width="1" />
