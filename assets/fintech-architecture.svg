@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 264" width="100%" height="264">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 288" width="100%">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#080F1E" />
+      <stop offset="0%" stop-color="#091224" />
       <stop offset="100%" stop-color="#050912" />
     </linearGradient>
 
     <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#F59E0B" stop-opacity="0" />
-      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.48" />
       <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
     </linearGradient>
 
     <clipPath id="parcelClip">
-      <rect x="0" y="0" width="340" height="58" rx="8" />
+      <rect x="0" y="0" width="258" height="62" rx="8" />
     </clipPath>
   </defs>
 
@@ -22,141 +22,134 @@
   </style>
 
   <!-- ==================== CARD 1: QUANT & HFT ==================== -->
-  <g transform="translate(8, 6)">
-    <rect x="0" y="0" width="380" height="252" rx="14" fill="url(#cardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.45" />
-    <rect x="0" y="0" width="380" height="4" rx="2" fill="#10B981" />
+  <g transform="translate(4, 6)">
+    <rect x="0" y="0" width="290" height="276" rx="14" fill="url(#cardBg)" stroke="#10B981" stroke-width="1.3" stroke-opacity="0.55" />
+    <rect x="0" y="0" width="290" height="4.5" rx="2" fill="#10B981" />
 
     <!-- Header -->
-    <text x="20" y="30" class="mono" font-size="11" font-weight="700" fill="#10B981" letter-spacing="0.8">01 // FINTECH &amp; QUANT TRADING</text>
-    <text x="20" y="52" class="sans" font-size="16.5" font-weight="700" fill="#F8FAFC">Piyasa Mikroyapısı &amp; Otonom İcra</text>
+    <text x="16" y="30" class="mono" font-size="12" font-weight="700" fill="#34D399" letter-spacing="0.5">01 // FINTECH &amp; QUANT</text>
+    <text x="16" y="55" class="sans" font-size="18.5" font-weight="800" fill="#FFFFFF">Piyasa Mikroyapısı &amp; İcra</text>
 
     <!-- Animated Order Book Imbalance Widget -->
-    <g transform="translate(20, 66)">
-      <rect x="0" y="0" width="340" height="58" rx="8" fill="#0B1526" stroke="#1E293B" stroke-width="1" />
-      <text x="12" y="19" class="mono" font-size="10" font-weight="700" fill="#34D399">BID DEPTH (ALICI)</text>
-      <text x="236" y="19" class="mono" font-size="10" font-weight="700" fill="#FB7185">ASK DEPTH (SATICI)</text>
+    <g transform="translate(16, 68)">
+      <rect x="0" y="0" width="258" height="62" rx="8" fill="#0B1629" stroke="#1E293B" stroke-width="1.1" />
+      <text x="10" y="20" class="mono" font-size="11" font-weight="700" fill="#34D399">BID (ALICI)</text>
+      <text x="168" y="20" class="mono" font-size="11" font-weight="700" fill="#FB7185">ASK (SATICI)</text>
 
       <!-- Ask Background Bar -->
-      <rect x="12" y="28" width="316" height="10" rx="5" fill="#F43F5E" fill-opacity="0.8" />
+      <rect x="10" y="28" width="238" height="11" rx="5.5" fill="#F43F5E" fill-opacity="0.85" />
       <!-- Animated Bid Foreground Bar -->
-      <rect x="12" y="28" width="224" height="10" rx="5" fill="#10B981">
-        <animate attributeName="width" values="215;242;198;234;215" dur="4.5s" repeatCount="indefinite" />
+      <rect x="10" y="28" width="172" height="11" rx="5.5" fill="#10B981">
+        <animate attributeName="width" values="162;186;148;178;162" dur="4.5s" repeatCount="indefinite" />
       </rect>
 
-      <text x="12" y="51" class="mono" font-size="9.5" fill="#94A3B8">LOB IMBALANCE: <tspan fill="#34D399" font-weight="700">+0.72 BULLISH</tspan></text>
-      <text x="226" y="51" class="mono" font-size="9.5" fill="#FBBF24">SPREAD: 0.01%</text>
+      <text x="10" y="54" class="mono" font-size="11" font-weight="700" fill="#34D399">LOB +0.72 ▲</text>
+      <text x="150" y="54" class="mono" font-size="11" font-weight="700" fill="#FBBF24">SPREAD 0.01%</text>
     </g>
 
-    <!-- Feature Bullets -->
-    <g transform="translate(20, 146)" class="sans" font-size="12.8" fill="#CBD5E1">
-      <text x="0" y="0"><tspan fill="#10B981" font-weight="700">▸</tspan> Limit Order Book (LOB) dengesizliği &amp; akış analizi</text>
-      <text x="0" y="24"><tspan fill="#10B981" font-weight="700">▸</tspan> Gerçek zamanlı FFT tabanlı spoofing filtreleme</text>
-      <text x="0" y="48"><tspan fill="#10B981" font-weight="700">▸</tspan> PPO pekiştirmeli öğrenme &amp; SMC likidite avcılığı</text>
-      <text x="0" y="72"><tspan fill="#10B981" font-weight="700">▸</tspan> Sıfır-bilgi RSA şifreli canlı vadeli işlem motoru</text>
+    <!-- High-Legibility Feature Bullets (14.2px Bold-Medium) -->
+    <g transform="translate(16, 156)" class="sans" font-size="14.2" font-weight="600" fill="#E2E8F0">
+      <text x="0" y="0"><tspan fill="#10B981" font-weight="800">▸</tspan> LOB dengesizliği &amp; akış analizi</text>
+      <text x="0" y="29"><tspan fill="#10B981" font-weight="800">▸</tspan> Gerçek zamanlı FFT de-spoofing</text>
+      <text x="0" y="58"><tspan fill="#10B981" font-weight="800">▸</tspan> PPO ajanları &amp; SMC likidite avı</text>
+      <text x="0" y="87"><tspan fill="#10B981" font-weight="800">▸</tspan> RSA şifreli canlı vadeli icra</text>
     </g>
   </g>
 
   <!-- ==================== CARD 2: MULTIMODAL & DEEP AI ==================== -->
-  <g transform="translate(410, 6)">
-    <rect x="0" y="0" width="380" height="252" rx="14" fill="url(#cardBg)" stroke="#06B6D4" stroke-width="1.2" stroke-opacity="0.45" />
-    <rect x="0" y="0" width="380" height="4" rx="2" fill="#06B6D4" />
+  <g transform="translate(305, 6)">
+    <rect x="0" y="0" width="290" height="276" rx="14" fill="url(#cardBg)" stroke="#06B6D4" stroke-width="1.3" stroke-opacity="0.55" />
+    <rect x="0" y="0" width="290" height="4.5" rx="2" fill="#06B6D4" />
 
     <!-- Header -->
-    <text x="20" y="30" class="mono" font-size="11" font-weight="700" fill="#22D3EE" letter-spacing="0.8">02 // MULTIMODAL &amp; DEEP LEARNING</text>
-    <text x="20" y="52" class="sans" font-size="16.5" font-weight="700" fill="#F8FAFC">Çok Modlu Ajanlar &amp; Bilgisayarlı Görü</text>
+    <text x="16" y="30" class="mono" font-size="12" font-weight="700" fill="#22D3EE" letter-spacing="0.5">02 // MULTIMODAL &amp; CV AI</text>
+    <text x="16" y="55" class="sans" font-size="18.5" font-weight="800" fill="#FFFFFF">Çok Modlu AI &amp; Derin Görü</text>
 
     <!-- Animated Neural Inference Widget -->
-    <g transform="translate(20, 66)">
-      <rect x="0" y="0" width="340" height="58" rx="8" fill="#0B1526" stroke="#1E293B" stroke-width="1" />
+    <g transform="translate(16, 68)">
+      <rect x="0" y="0" width="258" height="62" rx="8" fill="#0B1629" stroke="#1E293B" stroke-width="1.1" />
 
-      <!-- Synaptic Edges -->
-      <path id="syn1" d="M 38 14 L 138 18 L 242 29" fill="none" stroke="#1E293B" stroke-width="1.3" />
-      <path id="syn2" d="M 38 29 L 138 40 L 242 29" fill="none" stroke="#1E293B" stroke-width="1.3" />
-      <path id="syn3" d="M 38 44 L 138 18 L 242 29" fill="none" stroke="#1E293B" stroke-width="1.3" />
-      <line x1="38" y1="14" x2="138" y2="40" stroke="#1E293B" stroke-width="1" />
-      <line x1="38" y1="44" x2="138" y2="40" stroke="#1E293B" stroke-width="1" />
+      <path d="M 28 15 L 98 20 L 168 31" fill="none" stroke="#1E293B" stroke-width="1.4" />
+      <path d="M 28 31 L 98 42 L 168 31" fill="none" stroke="#1E293B" stroke-width="1.4" />
+      <path d="M 28 47 L 98 20 L 168 31" fill="none" stroke="#1E293B" stroke-width="1.4" />
+      <line x1="28" y1="15" x2="98" y2="42" stroke="#1E293B" stroke-width="1.1" />
+      <line x1="28" y1="47" x2="98" y2="42" stroke="#1E293B" stroke-width="1.1" />
 
-      <!-- Travelling Data Orbs -->
-      <circle r="3" fill="#22D3EE">
-        <animateMotion dur="2.2s" repeatCount="indefinite" path="M 38 14 L 138 18 L 242 29" />
+      <circle r="3.5" fill="#22D3EE">
+        <animateMotion dur="2.1s" repeatCount="indefinite" path="M 28 15 L 98 20 L 168 31" />
       </circle>
-      <circle r="3" fill="#10B981">
-        <animateMotion dur="2.7s" repeatCount="indefinite" path="M 38 44 L 138 18 L 242 29" />
+      <circle r="3.5" fill="#10B981">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M 28 47 L 98 20 L 168 31" />
       </circle>
-      <circle r="3" fill="#FBBF24">
-        <animateMotion dur="1.9s" repeatCount="indefinite" path="M 38 29 L 138 40 L 242 29" />
+      <circle r="3.5" fill="#FBBF24">
+        <animateMotion dur="1.8s" repeatCount="indefinite" path="M 28 31 L 98 42 L 168 31" />
       </circle>
 
-      <!-- Nodes -->
-      <circle cx="38" cy="14" r="4.5" fill="#06B6D4" />
-      <circle cx="38" cy="29" r="4.5" fill="#06B6D4" />
-      <circle cx="38" cy="44" r="4.5" fill="#06B6D4" />
+      <circle cx="28" cy="15" r="5" fill="#06B6D4" />
+      <circle cx="28" cy="31" r="5" fill="#06B6D4" />
+      <circle cx="28" cy="47" r="5" fill="#06B6D4" />
 
-      <circle cx="138" cy="18" r="5" fill="#38BDF8" />
-      <circle cx="138" cy="40" r="5" fill="#38BDF8" />
+      <circle cx="98" cy="20" r="5.5" fill="#38BDF8" />
+      <circle cx="98" cy="42" r="5.5" fill="#38BDF8" />
 
-      <circle cx="242" cy="29" r="6" fill="#10B981">
-        <animate attributeName="r" values="5;7.5;5" dur="1.6s" repeatCount="indefinite" />
+      <circle cx="168" cy="31" r="6.5" fill="#10B981">
+        <animate attributeName="r" values="5.5;8;5.5" dur="1.6s" repeatCount="indefinite" />
       </circle>
 
-      <text x="262" y="25" class="mono" font-size="9.5" font-weight="700" fill="#22D3EE">INFERENCE</text>
-      <text x="262" y="39" class="mono" font-size="9.5" fill="#94A3B8">98.9% mAP</text>
+      <text x="184" y="27" class="mono" font-size="11" font-weight="700" fill="#22D3EE">INFERENCE</text>
+      <text x="184" y="44" class="mono" font-size="11.5" font-weight="800" fill="#F8FAFC">98.9% mAP</text>
     </g>
 
-    <!-- Feature Bullets -->
-    <g transform="translate(20, 146)" class="sans" font-size="12.8" fill="#CBD5E1">
-      <text x="0" y="0"><tspan fill="#22D3EE" font-weight="700">▸</tspan> Gemini Multimodal Vision &amp; otonom web ajanları</text>
-      <text x="0" y="24"><tspan fill="#22D3EE" font-weight="700">▸</tspan> YOLOv8 gerçek zamanlı nesne tespiti (%98.9 mAP)</text>
-      <text x="0" y="48"><tspan fill="#22D3EE" font-weight="700">▸</tspan> DeBERTa tabanlı Doğal Dil Çıkarımı (SNLI / ANLI)</text>
-      <text x="0" y="72"><tspan fill="#22D3EE" font-weight="700">▸</tspan> Dermoskopik görüntülemede Transfer Öğrenmesi</text>
+    <!-- High-Legibility Feature Bullets -->
+    <g transform="translate(16, 156)" class="sans" font-size="14.2" font-weight="600" fill="#E2E8F0">
+      <text x="0" y="0"><tspan fill="#22D3EE" font-weight="800">▸</tspan> Gemini Vision &amp; web ajanları</text>
+      <text x="0" y="29"><tspan fill="#22D3EE" font-weight="800">▸</tspan> YOLOv8 gerçek zamanlı görü</text>
+      <text x="0" y="58"><tspan fill="#22D3EE" font-weight="800">▸</tspan> DeBERTa Doğal Dil Çıkarımı</text>
+      <text x="0" y="87"><tspan fill="#22D3EE" font-weight="800">▸</tspan> Medikal görüntüleme modelleri</text>
     </g>
   </g>
 
   <!-- ==================== CARD 3: AGRITECH & SPATIAL SAAS ==================== -->
-  <g transform="translate(812, 6)">
-    <rect x="0" y="0" width="380" height="252" rx="14" fill="url(#cardBg)" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.45" />
-    <rect x="0" y="0" width="380" height="4" rx="2" fill="#F59E0B" />
+  <g transform="translate(606, 6)">
+    <rect x="0" y="0" width="290" height="276" rx="14" fill="url(#cardBg)" stroke="#F59E0B" stroke-width="1.3" stroke-opacity="0.55" />
+    <rect x="0" y="0" width="290" height="4.5" rx="2" fill="#F59E0B" />
 
     <!-- Header -->
-    <text x="20" y="30" class="mono" font-size="11" font-weight="700" fill="#FBBF24" letter-spacing="0.8">03 // AGRITECH &amp; CLOUD SAAS</text>
-    <text x="20" y="52" class="sans" font-size="16.5" font-weight="700" fill="#F8FAFC">Coğrafi Veri &amp; Ölçeklenebilir Ürünler</text>
+    <text x="16" y="30" class="mono" font-size="12" font-weight="700" fill="#FBBF24" letter-spacing="0.5">03 // AGRITECH &amp; SAAS</text>
+    <text x="16" y="55" class="sans" font-size="18.5" font-weight="800" fill="#FFFFFF">Coğrafi Veri &amp; Bulut Ürünler</text>
 
     <!-- Animated PostGIS Satellite Parcel Scanner Widget -->
-    <g transform="translate(20, 66)" clip-path="url(#parcelClip)">
-      <rect x="0" y="0" width="340" height="58" rx="8" fill="#0B1526" stroke="#1E293B" stroke-width="1" />
+    <g transform="translate(16, 68)" clip-path="url(#parcelClip)">
+      <rect x="0" y="0" width="258" height="62" rx="8" fill="#0B1629" stroke="#1E293B" stroke-width="1.1" />
 
-      <!-- Satellite Parcel Polygon -->
       <polygon
-        points="28,44 52,12 128,10 154,32 118,48 48,49"
+        points="18,46 38,13 102,11 124,33 96,50 34,51"
         fill="#10B981"
-        fill-opacity="0.18"
+        fill-opacity="0.22"
         stroke="#34D399"
-        stroke-width="1.5"
+        stroke-width="1.6"
       />
-      <!-- Parcel Vertices -->
-      <circle cx="28" cy="44" r="2.5" fill="#FBBF24" />
-      <circle cx="52" cy="12" r="2.5" fill="#FBBF24" />
-      <circle cx="128" cy="10" r="2.5" fill="#FBBF24" />
-      <circle cx="154" cy="32" r="2.5" fill="#FBBF24" />
-      <circle cx="118" cy="48" r="2.5" fill="#FBBF24" />
+      <circle cx="18" cy="46" r="3" fill="#FBBF24" />
+      <circle cx="38" cy="13" r="3" fill="#FBBF24" />
+      <circle cx="102" cy="11" r="3" fill="#FBBF24" />
+      <circle cx="124" cy="33" r="3" fill="#FBBF24" />
+      <circle cx="96" cy="50" r="3" fill="#FBBF24" />
 
-      <!-- Sweeping Radar Scan Beam -->
-      <rect x="10" y="-18" width="160" height="18" fill="url(#scanGrad)">
-        <animate attributeName="y" from="-18" to="58" dur="2.8s" repeatCount="indefinite" />
+      <rect x="8" y="-18" width="128" height="18" fill="url(#scanGrad)">
+        <animate attributeName="y" from="-18" to="62" dur="2.8s" repeatCount="indefinite" />
       </rect>
 
-      <!-- Spatial Readout -->
-      <text x="176" y="24" class="mono" font-size="9.5" font-weight="700" fill="#FBBF24">POSTGIS // SRID:4326</text>
-      <text x="176" y="40" class="mono" font-size="9.5" fill="#94A3B8">TKGM ADA/PARSEL SYNC</text>
-      <rect x="0" y="0" width="340" height="58" rx="8" fill="none" stroke="#1E293B" stroke-width="1" />
+      <text x="136" y="27" class="mono" font-size="11" font-weight="700" fill="#FBBF24">POSTGIS:4326</text>
+      <text x="136" y="44" class="mono" font-size="11" font-weight="700" fill="#E2E8F0">TKGM SYNC</text>
+      <rect x="0" y="0" width="258" height="62" rx="8" fill="none" stroke="#1E293B" stroke-width="1.1" />
     </g>
 
-    <!-- Feature Bullets -->
-    <g transform="translate(20, 146)" class="sans" font-size="12.8" fill="#CBD5E1">
-      <text x="0" y="0"><tspan fill="#FBBF24" font-weight="700">▸</tspan> PostGIS MultiPolygon &amp; TKGM parsel entegrasyonu</text>
-      <text x="0" y="24"><tspan fill="#FBBF24" font-weight="700">▸</tspan> MapLibre hibrit uydu haritalama &amp; bakım motoru</text>
-      <text x="0" y="48"><tspan fill="#FBBF24" font-weight="700">▸</tspan> FastAPI Async + Next.js App Router + Supabase</text>
-      <text x="0" y="72"><tspan fill="#FBBF24" font-weight="700">▸</tspan> Chrome Manifest V3 eklentisi &amp; Micro-SaaS</text>
+    <!-- High-Legibility Feature Bullets -->
+    <g transform="translate(16, 156)" class="sans" font-size="14.2" font-weight="600" fill="#E2E8F0">
+      <text x="0" y="0"><tspan fill="#FBBF24" font-weight="800">▸</tspan> PostGIS &amp; TKGM parsel motoru</text>
+      <text x="0" y="29"><tspan fill="#FBBF24" font-weight="800">▸</tspan> MapLibre uydu &amp; bakım motoru</text>
+      <text x="0" y="58"><tspan fill="#FBBF24" font-weight="800">▸</tspan> FastAPI Async &amp; Next.js SaaS</text>
+      <text x="0" y="87"><tspan fill="#FBBF24" font-weight="800">▸</tspan> Supabase RLS &amp; Chrome V3</text>
     </g>
   </g>
 </svg>

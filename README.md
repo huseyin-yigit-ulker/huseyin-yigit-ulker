@@ -3,7 +3,7 @@
 
   <a href="https://github.com/huseyin-yigit-ulker">
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3200&pause=1100&color=10B981&center=true&vCenter=true&width=820&height=36&lines=%E2%9A%A1+Limit+Order+Book+Mikroyap%C4%B1s%C4%B1+%E2%80%A2+FFT+De-Spoofing+%E2%80%A2+PPO+RL+Ajanlar%C4%B1;%F0%9F%A7%A0+%C3%87ok+Modlu+LLM+Sistemleri+%E2%80%A2+Ger%C3%A7ek+Zamanl%C4%B1+G%C3%B6r%C3%BC+%E2%80%A2+PostGIS+AgriTech;%F0%9F%8E%93+Hacettepe+%C3%9Cniversitesi+Yapay+Zeka+M%C3%BChendisli%C4%9Fi+%E2%80%A2+Ar-Ge+%E2%86%92+Canl%C4%B1+Sistemler"
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3200&pause=1100&color=10B981&center=true&vCenter=true&width=880&height=46&lines=%E2%9A%A1+Limit+Order+Book+Mikroyap%C4%B1s%C4%B1+%E2%80%A2+FFT+De-Spoofing+%E2%80%A2+PPO+RL+Ajanlar%C4%B1;%F0%9F%A7%A0+%C3%87ok+Modlu+LLM+Sistemleri+%E2%80%A2+Ger%C3%A7ek+Zamanl%C4%B1+G%C3%B6r%C3%BC+%E2%80%A2+PostGIS+AgriTech;%F0%9F%8E%93+Hacettepe+%C3%9Cniversitesi+Yapay+Zeka+M%C3%BChendisli%C4%9Fi+%E2%80%A2+Ar-Ge+%E2%86%92+Canl%C4%B1+Sistemler"
       alt="Live Typing Telemetry"
     />
   </a>
