@@ -98,6 +98,21 @@
       <p><code>PyTorch</code> · <code>Transformers</code> · <code>TorchVision</code> · <code>Transfer Learning</code></p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>⚽ <a href="https://football-goal-intelligence.onrender.com">Football Goal &amp; Market Intelligence Platform</a></h3>
+      <p>
+        <a href="https://football-goal-intelligence.onrender.com"><img src="https://img.shields.io/badge/CANLI_PANEL-football--goal--intelligence.onrender.com-10B981?style=flat-square&labelColor=0B1220" alt="Canlı Panel" /></a>
+        <img src="https://img.shields.io/badge/VER%C4%B0_SET%C4%B0-22_L%C4%B0G_%7C_24.064%2B_MA%C3%87-06B6D4?style=flat-square&labelColor=0B1220" alt="24064 Maç" />
+        <img src="https://img.shields.io/badge/MODEL-BIVARIATE_POISSON_%2B_IN--PLAY_HAZARD-F59E0B?style=flat-square&labelColor=0B1220" alt="Poisson Hazard" />
+        <img src="https://img.shields.io/badge/REPO-PRIVATE_AR--GE-64748B?style=flat-square&labelColor=0B1220" alt="Private Repo" />
+      </p>
+      <p>
+        22 popüler erkek ve kadın futbol ligini (Süper Lig, Premier League, UCL, UEL, UWCL, WSL, Liga F vb.) maç öncesinde ve canlı akışta analiz eden <b>olasılıksal spor analitiği ve adil oran (Fair Odds / Value) motoru</b>. <b>Bivariate Poisson</b>, <b>Dixon-Coles</b>, zamansal <b>In-Play Hazard</b> ve 249 kulüplük <b>Korner / Kart / Şut / Faul</b> dağılımlarını birleştirerek maç maç açıklanabilir tahminler ve istatistiksel gerekçeler üretir.
+      </p>
+      <p><code>Python 3.12</code> · <code>FastAPI Async</code> · <code>Next.js 14</code> · <code>Supabase PostgreSQL</code> · <code>Poisson / Hazard Modeling</code></p>
+    </td>
+  </tr>
 </table>
 
 <img src="assets/quant-divider.svg" width="100%" alt="divider" />
